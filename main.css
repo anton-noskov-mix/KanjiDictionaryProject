@@ -30,6 +30,7 @@
 .card-left-bottom {
   display: flex;
   flex-direction: initial;
+  height: 1.5cm;
 }
 
 .card-left-bottom-left {
@@ -44,8 +45,10 @@
 
 .card-left-bottom-right {
   width: 2cm;
-  height: 1.5cm;
   padding: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .card-right {
@@ -83,9 +86,18 @@
   border-bottom: 1px dashed black;
 }
 
+.meaning-icon {
+  font-size: 7px;
+  color: white;
+  background-color: deeppink;
+  height: 10px;
+  line-height: 11px;
+}
+
 .some-meaning {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .some-meaning-symbols {
