@@ -23,8 +23,8 @@
 }
 
 .card-left-top>img {
-  height: inherit;
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .card-left-bottom {
@@ -45,6 +45,7 @@
 .card-left-bottom-right {
   width: 2cm;
   height: 1.5cm;
+  padding: 2px;
 }
 
 .card-right {
@@ -59,29 +60,51 @@
   padding-right: 6px;
   position: relative;
   width: 9.8cm;
-  height: 1.3cm;
+
+  
 }
 
 .card-right-block:first-child {
   flex-shrink: 0;
+  display: block;
+  height: 1.3cm;
 }
 
-.card-right-block:nth-child(2),
-.card-right-block:nth-child(3) {
+.card-right-block:nth-child(2) {
   flex-grow: 1;
+  padding-top: 6px;
+}
+
+.card-right-block:nth-child(3) {
+  flex-shrink: 0;
 }
 
 .card-right-block:not(:last-child) {
   border-bottom: 1px dashed black;
 }
 
-/*.card-right-block:nth-child(2) {
-	height: 2.1cm;
-}*/
+.some-meaning {
+  display: flex;
+  justify-content: space-between;
+}
 
-/*.card-right-block:not(:first-child) {
-	height: fit-content;
-}*/
+.some-meaning-symbols {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.some-meaning-symbols > div {
+  border: 1px solid black;
+  width: 3.6em;
+  text-align: center;
+  font-size: 8px;
+  line-height: 10px;
+}
+
+.some-meaning-symbols > div:nth-child(-n+2) {
+  margin-bottom: 5px;
+}
 
 .mini-block:not(:last-child) {
   border-right: none;
@@ -94,7 +117,8 @@
 }
 
 .mini-block>img {
-  height: inherit;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .mini-block-container {
@@ -110,19 +134,19 @@
   margin-right: 7px;
 }
 
-.somelist {
-  margin: 0;
-  padding-left: 15px;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  flex-wrap: wrap;
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 
+.list-element {
+  display: flex;
+}
 
-
-.somelist li::marker {
-  font-size: 20px;
+.bottom-text-block {
+  display: flex;
+  flex-direction: column;
 }
 
 page {
@@ -199,19 +223,24 @@ page[size="A5"][layout="landscape"] {
   background-position-x: 1px;
 }
 
-fg:before {
+li::before {
+  content: "";
+  margin-left: -8px;
+}
+
+
+fg::before {
+  position: absolute;
   content: attr(t);
-  display: block;
+  display: flex;
   font-size: 50%;
-  text-align: start;
-  line-height: 1.5;
+  justify-content: center;
+  line-height: 0;
+  width: 100%;
+  white-space: nowrap;
 }
 
 fg {
   display: inline-block;
-  text-indent: 0px;
-  line-height: normal;
-  -webkit-text-emphasis: none;
-  text-align: center;
-  line-height: 1;
+  position: relative;
 }
