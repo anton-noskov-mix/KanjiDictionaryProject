@@ -154,6 +154,7 @@
 
 .list-element {
   display: flex;
+  text-wrap: nowrap;
 }
 
 .bottom-text-block {
