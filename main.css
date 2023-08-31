@@ -160,6 +160,9 @@
   display: flex;
 
   box-sizing: border-box;
+}
+
+page div.card:first-child div.circle {
   top: -0.8px;
   left: -0.8px;
   box-shadow: -11px -11px 0 0px white;
