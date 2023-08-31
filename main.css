@@ -20,6 +20,7 @@
   width: 100%;
   height: 3.2cm;
   border-bottom: 1px solid #de70ab;
+  position: relative;
 }
 
 .card-left-top>img {
@@ -158,6 +159,10 @@
   position: absolute;
   display: flex;
 
+  box-sizing: border-box;
+  top: -0.8px;
+  left: -0.8px;
+  box-shadow: -11px -11px 0 0px white;
 }
 
 .icon {
