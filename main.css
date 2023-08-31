@@ -200,6 +200,7 @@ page {
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;
+  position: relative;
   /* box-shadow: 0 0 0.5cm rgba(0,0,0,0.5); */
 }
 
@@ -259,8 +260,21 @@ page[size="A5"][layout="landscape"] {
 
 .page-num {
   display: flex;
-  height: 100%;
   padding-top: 10px;
+  
+  position: absolute;
+  bottom: 10px;
+  border-bottom: 1px solid #de70ab;
+}
+
+page:nth-child(odd) .page-num {
+  left: 0;
+  padding-left: 40px;
+}
+
+page:nth-child(even) .page-num {
+  right: 0;
+  padding-right: 40px;
 }
 
 .bookmark-group {
