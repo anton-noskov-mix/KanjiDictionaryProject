@@ -1,0 +1,229 @@
+{
+  "cards": [
+    {
+      "kanji": "日",
+      "old_kanji": "日",
+      "img": "9_2.svg",
+      "strokes_img": [
+        "9_1.svg",
+        "9_2.svg"
+      ],
+      "group": "曜日",
+      "chapter": "第1部\\覚えておきたいよく使う漢字",
+      "radicals": "日",
+      "strokes_num": 4,
+      "kanji_class": "常用",
+      "kanji_ed": "小学１",
+      "kanji_test": "漢検10",
+      "kanji_level": "N5",
+      "on_readings": "ニチ、ジツ",
+      "on_readings_line_break": true,
+      "kun_readings": "ひ、か",
+      "kun_readings_line_break": true,
+      "meanings": "ひ。<|たいよう|太陽|>。ひごと。<|にほ|日本|>の<|りゃく|略|>。「<|にちようび|日曜日|>」の<|りゃく|略|>。",
+      "words": [
+        {
+          "kanji": "<|ひがえり|日帰り|>",
+          "reading": "higaeri",
+          "meaning": "однодневная поездка",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|ひので|日の出|>",
+          "reading": "hinode",
+          "meaning": "восход солнца",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|ひのいり|日の入り|>",
+          "reading": "hinoiri",
+          "meaning": "закат солнца",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|ひより|日和|>",
+          "reading": "hiyori",
+          "meaning": "хорошая погода",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|にちようび|日曜日|>",
+          "reading": "nichiyoobi",
+          "meaning": "воскресение",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|にっこう|日光|>",
+          "reading": "nikkoo",
+          "meaning": "солнечный свет",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|まいにち|毎日|>",
+          "reading": "mainichi",
+          "meaning": "ежедневно",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|らいにち|来日|>",
+          "reading": "rainichi",
+          "meaning": "посещение Японии",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|あす|明日|>\\<|あした|明日|>",
+          "reading": "asu\\ashita",
+          "meaning": "завтра",
+          "special": true,
+          "break_line": false
+        }
+      ],
+      "exs_words": [
+        {
+          "kanji": "<|くにほん|日本|>\\<|くにっぽん|日本|>",
+          "reading": "nihon\\nippon",
+          "meaning": "Япония",
+          "special": false,
+          "break_line": false
+        }
+      ],
+      "exs_sentence": {
+        "kanji": "いつ<|にほん|日本|>へ<|き|来|>ましたか。10<|がつ|月|>3<|か|日|>に<|き|来|>ました。",
+        "meaning": "Когда ты приехал в Японию? Я приехал 3 октября.",
+        "special": false,
+        "break_line": true
+      }
+    },
+    {
+      "kanji": "月",
+      "old_kanji": "月",
+      "img": "9_2.svg",
+      "strokes_img": [
+        "9_1.svg",
+        "9_2.svg"
+      ],
+      "group": "曜日",
+      "chapter": "第1部\\覚えておきたいよく使う漢字",
+      "radicals": "月",
+      "strokes_num": 4,
+      "kanji_class": "常用",
+      "kanji_ed": "小学１",
+      "kanji_test": "漢検10",
+      "kanji_level": "N5",
+      "on_readings": "げつ、がつ",
+      "on_readings_line_break": true,
+      "kun_readings": "つき",
+      "kun_readings_line_break": true,
+      "meanings": "つき。としつぎ。「<|げつようび|月曜日|>」の<|りゃく|略|>",
+      "words": [
+        {
+          "kanji": "<|つきなみ|月並み|>",
+          "reading": "tsukinami",
+          "meaning": "~なбанальный",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|つきひ|月日|>",
+          "reading": "tsukihi",
+          "meaning": "время / дни и месяцы",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|まいつき|毎月|>",
+          "reading": "maitsuki",
+          "meaning": "каждый месяц",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|みかつき|三日月|>",
+          "reading": "mikatuki",
+          "meaning": "полумесяц",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|げっこう|月光|>",
+          "reading": "gekkoo",
+          "meaning": "лунный свет",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|げっきゅう|月給|>",
+          "reading": "gekkyuu",
+          "meaning": "[месячная] зарплата",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|げっしゃ|月謝|>",
+          "reading": "gessa",
+          "meaning": "[ежемесячная] плата за обучение",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|げつようび|月曜日|>",
+          "reading": "getsuyoobi",
+          "meaning": "понедельник",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|ねんげつ|年月|>",
+          "reading": "nengetsu",
+          "meaning": "года / годы",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|しょうがつ|正月|>",
+          "reading": "shoogatsu",
+          "meaning": "Новый год",
+          "special": false,
+          "break_line": false
+        },
+        {
+          "kanji": "<|さみだれ|五月雨|>",
+          "reading": "samidare",
+          "meaning": "ранний летний дождь",
+          "special": true,
+          "break_line": false
+        },
+        {
+          "kanji": "<|さつき|五月|>",
+          "reading": "satsuki",
+          "meaning": "Май",
+          "special": true,
+          "break_line": false
+        }
+      ],
+      "exs_words": [
+        {
+          "kanji": "<|くにほん|日本|>\\<|くにっぽん|日本|>",
+          "reading": "nihon\\nippon",
+          "meaning": "Япония",
+          "special": false,
+          "break_line": false
+        }
+      ],
+      "exs_sentence": {
+        "kanji": "いちばん寒い月は来月ですか。",
+        "meaning": "Самый холодный месяц следующий?",
+        "special": false,
+        "break_line": false
+      }
+    }
+  ]
+}

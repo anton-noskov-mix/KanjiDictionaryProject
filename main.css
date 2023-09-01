@@ -9,9 +9,6 @@
   border-top: none;
 }
 
-/* .card:first-child {
-  border-top-left-radius: 11px
-} */
 
 .card-left {
   border-right: 1px solid #de70ab;
@@ -97,21 +94,22 @@
   background-color: #de70ab;
   height: 10px;
   line-height: 11px;
+  margin-right: 2px;
 }
 
-.some-meaning {
+.kanji-stroke-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: normal;
   align-items: center;
 }
 
-.some-meaning-symbols {
+.kanji-level-info {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.some-meaning-symbols>div {
+.kanji-level-info>div {
   border: 1px solid #de70ab;
   width: 3.6em;
   text-align: center;
@@ -120,7 +118,7 @@
   height: 10px;
 }
 
-.some-meaning-symbols>div:nth-child(-n+2) {
+.kanji-level-info>div:nth-child(-n+2) {
   margin-bottom: 5px;
 }
 
@@ -169,7 +167,7 @@
 page div.card:first-child div.circle {
   top: -0.8px;
   left: -0.8px;
-  box-shadow: -11px -11px 0 0px white;
+  box-shadow: -12px -11px 0 0px white;
 }
 
 .icon {
@@ -191,8 +189,7 @@ page div.card:first-child div.circle {
 }
 
 .bottom-text-block {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 page {
@@ -261,7 +258,7 @@ page[size="A5"][layout="landscape"] {
 .page-num {
   display: flex;
   padding-top: 10px;
-  
+
   position: absolute;
   bottom: 10px;
   border-bottom: 1px solid #de70ab;
@@ -277,18 +274,28 @@ page:nth-child(even) .page-num {
   padding-right: 40px;
 }
 
+.page-num-background {
+  background: #de70ab;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-right: 3px;
+}
+
+.page-num-span {
+  margin-left: 0.1cm;
+}
+
 .bookmark-group {
   position: absolute;
   padding-left: 0;
   width: 0.8cm;
-  margin-top: 0.5cm;
 }
 
 .bookmark-mark {
   width: 0.8cm;
   height: 0.5cm;
-  background: black;
-  border-top-right-radius: 5px;
+  background: #de70ab;
+  border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
 }
 
@@ -297,6 +304,22 @@ page:nth-child(even) .page-num {
   display: flex;
   align-items: center;
   width: 0.8cm;
+}
+
+.meaning-icon-group {
+  display: flex;
+  float: right;
+  align-items: center;
+  width: 100%;
+}
+
+.kanji-num {
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  border-top: 1px solid #de70ab;
+  border-left: 1px solid #de70ab;
+  line-height: 13px;
 }
 
 fg::before {
